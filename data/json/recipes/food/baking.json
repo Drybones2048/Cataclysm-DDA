@@ -47,7 +47,7 @@
     "skill_used": "cooking",
     "difficulty": 3,
     "charges": 24,
-    "time": "30 m",
+    "time": "45 m", //changed cook time from 30m to 45m to reflect real world recipes
     "batch_time_factors": [ 50, 4 ],
     "book_learn": [ [ "family_cookbook", 3 ], [ "baking_book", 2 ], [ "cookbook", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_baking" }, { "proficiency": "prof_baking_desserts_1" } ],

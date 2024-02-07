@@ -6,7 +6,7 @@
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_MEAT",
     "skill_used": "cooking",
-    "difficulty": 3,
+    "difficulty": 4, //increased difficulty due to making the food sit for a long time at low tempuratures, which is difficult to maintain
     "time": "4 h",
     "batch_time_factors": [ 80, 4 ],
     "book_learn": [ [ "family_cookbook", 3 ], [ "scots_cookbook", 2 ], [ "survival_book", 3 ] ],
@@ -83,7 +83,7 @@
     "subcategory": "CSC_FOOD_MEAT",
     "skill_used": "cooking",
     "difficulty": 3,
-    "time": "90 minutes",
+    "time": "40 minutes", //changed cook time from 90 to 40 minutes to better reflect recipes in real world 
     "batch_time_factors": [ 80, 1 ],
     "book_learn": [ [ "cookbook_turkish", 2 ] ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COOK", "level": 2 } ],
@@ -109,7 +109,7 @@
     "subcategory": "CSC_FOOD_MEAT",
     "skill_used": "cooking",
     "difficulty": 3,
-    "time": "1 hour",
+    "time": "2 hour", //changed cook time from 1 to 2 hours because of the time required for the dish in real recipes
     "charges": 10,
     "batch_time_factors": [ 80, 1 ],
     "book_learn": [ [ "cookbook_turkish", 2 ] ],
@@ -136,7 +136,7 @@
     "subcategory": "CSC_FOOD_MEAT",
     "skill_used": "cooking",
     "difficulty": 3,
-    "time": "3 hours",
+    "time": "4 hours", //changed cook time from 3 hours to 4 hours to reflect cook time in the real world 
     "batch_time_factors": [ 80, 1 ],
     "book_learn": [ [ "cookbook_turkish", 2 ] ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COOK", "level": 2 } ],
